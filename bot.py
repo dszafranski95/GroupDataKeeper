@@ -83,7 +83,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Dodanie handlerów
 app = (
-    ApplicationBuilder().token("6644951933:AAGtdD7f1pLUzXAziDgNRwZKGo9YXuYPAUI").build()
+    ApplicationBuilder().token("").build()
 )
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("set", set_value))
